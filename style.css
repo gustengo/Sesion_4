@@ -1,0 +1,61 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+div {
+    width: 50%;
+    height: 250px;
+}
+
+.primer-cuadro {
+    background: purple;
+    float: left;
+}
+
+.segundo-cuadro {
+    background: lightblue;
+    float: right;
+}
+
+.tercer-cuadro {
+    background: lightcoral;
+    float: left;
+}
+
+.cuarto-cuadro {
+    background: sandybrown;
+    float: right;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 50%;
+    height: 340px;
+    display: inline-block;
+}
+
+.primer-cuadro {
+    background: red;
+    position: relative;
+}
+
+.segundo-cuadro {
+    background: aquamarine;
+    position: absolute;
+}
+
+.tercer-cuadro {
+    background: salmon;
+    position: relative;
+}
+
+.cuarto-cuadro {
+    background: slateblue;
+    position: absolute;
+}
