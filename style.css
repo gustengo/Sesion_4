@@ -1,4 +1,4 @@
-/* * {
+    /* * {
     margin: 0;
     padding: 0;
     flex-direction: column;
@@ -28,34 +28,48 @@ div {
     background: sandybrown;
     float: right;
 } */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-div {
-    width: 50%;
-    height: 340px;
-    display: inline-block;
-}
-
-.primer-cuadro {
-    background: red;
-    position: relative;
-}
-
-.segundo-cuadro {
-    background: aquamarine;
-    position: absolute;
-}
-
-.tercer-cuadro {
-    background: salmon;
-    position: relative;
-}
-
-.cuarto-cuadro {
-    background: slateblue;
-    position: absolute;
-}
+    
+    * {
+        margin: 0;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        background: beige;
+        color: white;
+    }
+    
+    .cuadro {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    
+    .izquierda {
+        left: 0;
+    }
+    
+    .derecha {
+        right: 0;
+    }
+    
+    .primer-cuadro {
+        background: red;
+        top: 0;
+    }
+    
+    .segundo-cuadro {
+        background: yellowgreen;
+        bottom: 0;
+    }
+    
+    .tercer-cuadro {
+        background: salmon;
+        top: 0;
+    }
+    
+    .cuarto-cuadro {
+        background: slateblue;
+        bottom: 0;
+    }
